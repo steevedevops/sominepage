@@ -1,0 +1,42 @@
+*{
+	margin: 10px;
+	padding: 10px;
+	/*Para que las cajas no se deborden unos a otros*/
+	box-sizing: border-box;
+}
+
+.contenido{
+
+}
+	.header{
+		background-color: #000;
+	}
+		/*Stylo al menu*/
+		.menu{
+			background-color: #233142;
+		}
+		.logo{
+			background-color: #f95959;
+		}
+		.nav{
+			background-color: #f95959;	
+		}
+	.texto-principal{
+		background-color: #f07b3f;
+	}
+
+	.section{
+		background-color: #000;
+	}
+		.articulos{
+			background-color: #4e4e6a;
+		}
+	
+
+	.footer{
+		background-color: #000;
+	}
+		.social{
+			background-color: #f95959;
+		}
+
