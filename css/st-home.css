@@ -298,6 +298,24 @@ a{
 				font-size: 35px;
 				padding: 10px;
 			}
+			.title-un-basico{
+				font-size: 15px;
+    			color: #fff;
+    			font-family: none;
+    			margin-left: 5px;
+			}
+			.title-na-basico{
+				font-size: 15px;
+    			color: #fff;
+    			background-color: #f35858;
+    			width: 186px;
+    			padding: 7px;
+    			border-radius: 7px;
+    			margin-top: 21px;
+			}
+			.text-basico{
+				color: #fff;
+			}
 		
 		.content-img-steeve{
 			background-color: red;
@@ -308,8 +326,8 @@ a{
 			height: 100%;
 		}
 		.content-imformation-steeve{
-			background-color: grey;
 			width: 350px;
+			padding: 10px;
 		}
 
 		
