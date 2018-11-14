@@ -24,15 +24,14 @@ a{
 	flex-flow: column nowrap;
 }
 	.header{
-		background-color: #000;
-		height: 300px;
+		background-color: #a7bdd8;
+		height: 210px;
 		/*Flex-box*/
 		display: flex;
 		flex-flow: column nowrap;
 	}		
 		/*Stylo al menu*/
 		.menu{
-			background-color: #23314299;
 			display: flex;
 			flex-flow: row nowrap;
 			height: 35px;
@@ -41,6 +40,9 @@ a{
 			padding: 35px;
 			z-index: 2;
 		}
+			.menu-new{
+				background-color: #23314299;
+			}
 			.logo{
 				/*background-color: #f95959;*/
 				height: 40px;
