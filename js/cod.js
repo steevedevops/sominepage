@@ -2,6 +2,13 @@ $(document).ready(function(){
     $(window).load(function() {
         fadeIn()
     });
+    $( "#hover" ).hover(
+        function() {          
+          $(".barrinha").addClass("barrinha-linda");          
+        }, function() {
+          $(".barrinha").removeClass("barrinha-linda");          
+        }
+    );
     $( window ).scroll(function() {
         if ($(this).scrollTop()) {
             $(".menu").addClass("backgroun-scroll");
