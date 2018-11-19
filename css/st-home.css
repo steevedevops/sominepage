@@ -24,7 +24,6 @@ a{
 }
 	.header{
 		background-color: #000;
-
 		height: 100vh;
 		/*Flex-box*/
 		display: flex;
@@ -61,8 +60,7 @@ a{
 		/*Stylo al menu*/	
 		.backgroun-scroll{
 			background-color: #303952eb;
-		}	
-					
+		}				
 		.menu{
 			position: fixed;			
 			display: flex;
@@ -141,6 +139,7 @@ a{
 						border-bottom:   #fff 1px solid;
 					}
 
+			
 			.btnentrar{
 				color: #fff;
 				font-size: 17px;						
