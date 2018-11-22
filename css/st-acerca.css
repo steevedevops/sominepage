@@ -217,39 +217,6 @@ a{
 					border: solid 2px #fff;
 				}
 				
-
-					/* DEMO STYLES *
-  
-  /* PROGRESS CIRCLE COMPONENT */
-  .circliful {
-	  margin:auto;
-	  position: relative; 
-  }
-
-  .styloa{
-	  color: #242f42;
-  }
-  
-  .circle-text, .circle-info, .circle-text-half, .circle-info-half {
-	  width: 100%;
-	  position: absolute;
-	  text-align: center;
-	  display: inline-block;
-  }
-  
-  .circle-info, .circle-info-half {
-	  color: #999;
-  }
-  
-  .circliful .fa {
-	  margin: -10px 3px 0 3px;
-	  position: relative;
-	  bottom: 4px;
-  }
-
-
-
-
 			.junto-cont{
 				width: 600px;
 				height: 1010px;
@@ -430,3 +397,56 @@ a{
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
+
+  
+  	  /*=====================
+		  CIRCLE PROGRESS BAR
+	  ======================*/
+	  .progressbar{
+		   display: flex;
+		   flex-flow: row wrap;
+		   position: relative;
+	  }
+	  .circle{
+		  width: 180px;
+		  height: 180px;
+		  margin: 0 auto;
+		  margin-top: 10px;
+		  text-align: center;
+		  display: flex;
+		  flex-flow: row wrap;
+		  position: relative;
+	  }
+	  
+	  .circle div {
+		position: absolute;
+		top: 60%;
+		left: 49%;
+		margin: -20px 0 0 -86px;
+		width: 100%;
+		text-align: center;
+		line-height: 40px;
+		font-size: 20px;	  
+	}
+	.circle p {
+		position: absolute;
+		top: 45%;
+		left: 48%;
+		margin: -20px 0 0 -86px;
+		width: 100%;
+		text-align: center;
+		line-height: 40px;
+		font-size: 25px;	  
+	}
+
+	  /*.circle strong i {
+		  font-style: normal;
+		  font-size: 0.9em;
+		  font-weight: normal;
+	  }*/
+	  /*.circle span {
+		  display: flex;
+		  color: white;
+		  margin-top: 12px;
+	  }*/
+	  
