@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+*, *:before, *:after{
+  margin:0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background-image:  url("../img/fondo.jpg");
+  background-attachment:fixed;
+  background-size:cover!important;
+  background-position:center;
+  background-blend-mode:screen;
+  font-family: "Roboto";
+}
+
+.contenedor {
+  width: 350px;
+  margin: auto;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.contenedor h2{
+  color: #eee;
+  display: inline-block;
+  position: relative;
+  padding: 0.2em;
+  margin: auto;
+  margin-bottom: 1.5em;
+}
+
+.contenedor h2:before{
+  content: '';
+  background: #eee;
+  position: absolute;
+  margin: auto;
+  width: 70%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+input[type="email"],input[type="password"]{
+  color: #555;
+  background-color: #bdc3c7;
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  border: 2px solid #f35858;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+#olvida-password{
+  color: #a1a1a1;
+  font-size: 0.85em;
+  text-decoration: none;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+#olvida-password:hover{
+  color: #d1d1d1;
+}
+.text-steeve-login{
+    color: #fff;
+    
+}
+.btn-voltar{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f35858;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-transition :all 500ms ease;
+	-o-transition: all 500ms ease;
+	-transition:all 500ms ease;
+}
+.btn-voltar:hover{
+    background-color: #d64a4a;
+}
+button[type="submit"]{
+  color:#fff;
+  background: #f35858;
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: 0;
+  -webkit-transition: background .4s ease;
+  -moz-transition: background .4s ease;
+  transition: background .4s ease;
+}
+
+button[type="submit"]:hover{
+  background: #27ae60;
+}
