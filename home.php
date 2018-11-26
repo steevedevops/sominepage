@@ -23,7 +23,7 @@
 	  <div class="smartphone-menu-trigger"></div>
     <header class="avatar">
 	  	<img class="img-steeve" src="img/img-steeve.jpg" />
-      <h2>John D.</h2>
+      <h2>Steeve Py.</h2>
     </header>
 	  <ul>
       <li tabindex="0" class="icon-dashboard"><span>Dashboard</span></li>
@@ -37,7 +37,8 @@
     <div class="helper">
       BIENENIDO A STEEVE ADMIN
   		<!-- <span>Breakpoints on 900px and 400px</span> -->
-      <h2><?php echo "$logeado"; ?></h2>
+      <span><?php echo "$logeado"; ?></span>
+      <a class="btn-sair" href="login.html">Sair</a>
     </div>
   </main>
 </body>

@@ -23,7 +23,7 @@ main .helper {
 }
 main .helper span {
   color: rgb(202, 80, 80);
-  font-size: 0.4em;
+  font-size: 32px;
   display: block;
 }
 .menu {
@@ -51,9 +51,27 @@ main .helper span {
 
 .img-steeve{
   width: 80px;
-  height: 80px;
+  height: 86px;
   border-radius: 40px; 
 }
+
+    .btn-sair{
+        color: #fff;
+				font-size: 17px;						
+				background-color: #f95959;
+				text-align: center;
+				padding: 7px;
+				width: 89px;
+				border-radius: 5px;
+				-webkit-transition :all 500ms ease;
+				-o-transition: all 500ms ease;
+				font-weight: 900;
+				-transition:all 500ms ease;
+			}	
+			.btnentrar:hover{
+				background-color: #ae4e4e;
+				border-bottom:   #fff 1px solid;
+			}
 
 .menu .avatar h2 {
   font-weight: normal;
