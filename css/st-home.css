@@ -610,11 +610,14 @@ a{
 
 
 @media all and (max-width: 800px){
-	.nav{
-		height: 32px;
+	.text-steeve {
+		font-size: 57px;
+		color: #dc5050;
+		font-weight: 100;
+		text-shadow: 1px 3px 8px #672121;
+		margin-top: 245px;
+		font-family: 'Archivo black', sans-serif;
 	}
-
-
 	.topic {
 		width: 270px;
 		margin: 25px 0px 0px 0px;
