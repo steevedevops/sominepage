@@ -58,9 +58,9 @@ main .helper span {
     .btn-sair{
         color: #fff;
 				font-size: 17px;						
-				background-color: #f95959;
+        background-color: #f95959;
+        padding: 10px 30px 9px 30px;
 				text-align: center;
-				padding: 7px;
 				width: 89px;
 				border-radius: 5px;
 				-webkit-transition :all 500ms ease;
@@ -71,7 +71,10 @@ main .helper span {
 			.btnentrar:hover{
 				background-color: #ae4e4e;
 				border-bottom:   #fff 1px solid;
-			}
+      }
+a{
+  text-decoration: none; 
+}
 
 .menu .avatar h2 {
   font-weight: normal;
