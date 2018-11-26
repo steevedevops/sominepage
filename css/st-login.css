@@ -45,7 +45,7 @@ body{
   right: 0;
 }
 
-input[type="email"],input[type="password"]{
+input[type="text"],input[type="password"]{
   color: #555;
   background-color: #bdc3c7;
   width: 100%;
@@ -71,7 +71,6 @@ input[type="email"],input[type="password"]{
 }
 .text-steeve-login{
     color: #fff;
-    
 }
 .btn-voltar{
     text-decoration: none;
